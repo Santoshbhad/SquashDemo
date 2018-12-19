@@ -1,0 +1,4 @@
+ if(mainViewModel.homeFragement.homeViewModel.fragmentHomeBinding.viewPagerHome.getCurrentItem()==1)
+        {
+            mainViewModel.homeFragement.homeViewModel.ScanAndPayFragment.permissionCheck();
+        }
